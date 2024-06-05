@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+   }
+   
+   .container {
+     max-width: 600px;
+     padding: 20px;
+     margin: 0 auto;
+     color: white;
+     border: 1px solid white;
+     border-radius: 20px;
+   }
+   
+   form {
+     display: flex;
+     flex-direction: column;
+   }
+   label {
+     margin-bottom: 5px;
+   }
+   
+   input, select, button {
+     margin-bottom: 9.5px;
+     padding: 4.5px;
+     border: 2.5px solid rgb(124, 40, 137);
+     border-radius: 5px;
+   }
+   
+   button {
+     background-color: rgb(34, 23, 155);
+     color: rgb(219, 219, 71);
+     font-weight: bold;
+     cursor: pointer;
+     border: none;
+   }
